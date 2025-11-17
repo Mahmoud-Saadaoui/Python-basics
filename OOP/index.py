@@ -94,7 +94,36 @@ print("#" * 50)
 print(member_one.full_name())
 print(Member.full_name(member_one))
 
-Member.say_hello()    
+Member.say_hello()  
 
+
+# ===========================================================
+# The __str__() method is a special method that controls 
+# what is returned when the object is printed:
+# ===========================================================
+
+# Example
+# Without the __str__() method:
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Emil", 36)
+print(p1)
+# Output: <__main__.Person object at 0x7f9b8c2d1d30>
+
+# With the __str__() method:
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def __str__(self):
+    return f"{self.name} ({self.age}years old)"
+
+p1 = Person("Tobias", 36)
+print(p1) 
+# Output: Tobias (36years old)
 
     
