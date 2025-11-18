@@ -11,3 +11,6 @@ This folder covers the essential foundations of Python like variables, lists, et
 
 ### 4️⃣ regular-expressions
 
+### 5️⃣ text file handling
+
+
