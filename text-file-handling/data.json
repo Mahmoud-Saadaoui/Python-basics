@@ -1,0 +1,33 @@
+[
+    {
+        "country": "Palestine",
+        "capital": "Ramallah (administrative), East Jerusalem (claimed)",
+        "phoneCode": "+970"
+    },
+    {
+      "country": "France",
+      "capital": "Paris",
+      "phoneCode": "+33"
+    },
+    {
+      "country": "Tunisia",
+      "capital": "Tunis",
+      "phoneCode": "+216"
+    },
+    {
+      "country": "United States",
+      "capital": "Washington, D.C.",
+      "phoneCode": "+1"
+    },
+    {
+      "country": "Japan",
+      "capital": "Tokyo",
+      "phoneCode": "+81"
+    },
+    {
+      "country": "Brazil",
+      "capital": "Brasília",
+      "phoneCode": "+55"
+    }
+]
+  
